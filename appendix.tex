@@ -1,9 +1,9 @@
 \section{Appendix}
 
 \subsection{VAT = CPT}
-To proof the equivalence of a value added tax, it is necessary to highlight the variable that differ from those in the corporate profit tax. Let us first understand what the difference is. While corporate profit does not tax U.S. wages, the VAT actually does. So effectively, there must be a difference in the after-tax profits, the tax revenues and the U.S. real product wages. 
+To proof the equivalence of a value added tax, it is necessary to highlight the variable that differ from those in the corporate profit tax. Let us first understand what the difference is. While corporate profit does not tax U.S. wages, the value-added tax actually does. So effectively, there must be a difference in the after-tax profits, the tax revenues and the U.S. real product wages. 
 
-We want to show that a border adjustment following a destination based cash flow tax is equivalent to one following a value added tax. This would be given, if the border tax adjustment neutrality condition are the same in both cases. 
+We want to show that a border adjustment following a destination based corporate profit tax is equivalent to one following a value added tax. This would be given, if the border tax adjustment neutrality condition are the same in both cases. 
 
 Firstly, the after tax profit is defined as: 
 
@@ -67,7 +67,7 @@ Output
 \end{aligned}
 \end{equation}
 
-Despite the fact, that there are differences regarding taxing the payroll in the origin and the destination case, the neutrality conditions are identical to the ones of the destination based cash flow tax. Let us have a look at the tax revenue. 
+Despite the fact, that there are differences regarding taxing the payroll in the origin and the destination case, the neutrality conditions are identical to the ones of the destination based corporate profit tax. Let us have a look at the tax revenue. 
 
 \subsubsection{Tax revenue}
 \subsubsection*{Origin} 
@@ -104,6 +104,57 @@ As in (14) and (15) the neutrality condition of the tax return is the difference
     \frac{\underline T}{\underline P_d} - \frac{\overline T}{\overline P_d} &=  \frac{\theta}{1+\theta}  \left(  \underline Q_d - \overline Q_d +\frac{ \left( 1+\theta \right) \underline e \underline P^*_m}{\underline P_d}\underline M - \frac{\overline P_x}{\overline P_d} \overline X \right) \\
 \end{aligned} 
 \end{equation}
+
+By comparing this result with the one in \eqref{t.real2}, we see that they are also identical. So we only need to take a look at the real product wages in the domestic and the export sector.
+
+\subsection*{Real product wage in the U.S. domestic sector}
+Wages are no longer deductible and as in \eqref{prodw.o}, domestic prices are tax-exclusive:
+\subsubsection*{Origin}
+\begin{equation}\label{prodw2.o}
+\begin{aligned}
+\overline R^f_{w, d} = \frac{\overline w}{\frac{\overline P_d}{ \left( 1+\theta \right) }}\end{aligned}  \end{equation}
+
+\subsubsection*{Destination}
+\begin{equation}\label{prodw2.d}
+\begin{aligned}
+\underline R^f_{w, d} = \frac{\underline w}{\frac{\underline P_d}{ \left( 1+\theta \right) }}\end{aligned}  \end{equation}
+
+\subsubsection*{Condition}
+Because the tax-rate is constant, the difference concerning both tax regimes becomes  irrelevant in this condition:
+\begin{equation}\label{prodw2.con}
+\begin{aligned}
+    \underline R^f_{w, d} &= \overline R^f_{w, d} \\ &\Rightarrow \frac{\underline w}{\frac{\underline P_d}{ \left( 1+\theta \right) }} = \frac{\overline w}{\frac{\overline P_d}{ \left( 1+\theta \right) }} \\ &\Leftrightarrow \frac{\underline w}{\underline P_d} = \frac{\overline w}{\overline P_d} 
+\end{aligned}  \end{equation}
+
+Comparing the results of \eqref{prodw.con} with those in \eqref{prodw2.con}, we see that deductible wages become irrelevant and consequently the relative product wages in the domestic sector are identical.
+
+For the export sector, the results are analogous:
+\subsection*{Real product wage in the U.S. export sector}
+For the export sector the real product wage is:
+\subsubsection*{Origin}
+\begin{equation}\label{proxw2.o}
+\begin{aligned}
+\overline R^f_{w, x} = \frac{\overline w}{\frac{\overline P_x}{ \left( 1+\theta \right) }}\end{aligned}  \end{equation}
+
+\subsubsection*{Destination}
+\begin{equation}\label{proxw2.d} 
+\begin{aligned}
+\underline R^f_{w, x} = \frac{\underline w}{\underline P_x} = \frac{ \left( 1-\theta \right) \underline w}{\underline e \underline P^*_x}\end{aligned}  \end{equation}
+
+
+\subsubsection*{Condition}
+\begin{equation}\label{proxw2.con}
+\begin{aligned}
+    \underline R^f_{w, x} &= \overline R^f_{w, x} \\ &\Rightarrow \frac{\underline w}{\underline P_x} = \frac{\overline w}{\frac{\overline P_x}{ \left( 1+\theta \right) }} \Leftrightarrow \frac{\underline w}{\underline P_x} = \frac{\overline w}{\frac{\overline P_x}{ \left( 1+\theta \right) }} \\ &\Rightarrow \frac{\underline w}{\underline e \underline P^*_x} = \frac{\overline w}{\frac{ \left( 1+\theta \right) \overline e \overline P^_x}{ \left( 1+\theta \right) }} \Leftrightarrow  \frac{\underline w}{\underline e \underline P^*_x} = \frac{\overline w}{\overline e \overline P^_x} 
+\end{aligned}  
+\end{equation}
+
+Once again the deductible wage does get, so \eqref{proxw2.con} is identical to \eqref{proxw.con}. 
+
+As \cite{buiter2017exchange}, I conclude that in this model, value-added taxes and destination based corporate profit taxes are comparable. 
+
+
+
 
 
 \subsection{Conditions}

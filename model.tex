@@ -1,15 +1,21 @@
 \section{Model}
-Before we can start building the model, I define the sections that I will replicate from \cite{buiter2017exchange}. In general, he built his model for border tax adjustment following a value added tax and a corporate profit tax. Even though I provide proof for its equality in the appendix, I do not integrate the value added tax case in my model. 
-Further, because we are more interested in the border tax adjustment, then in the cash flow component, I will also follow his approach to leave out capital goods and capital expenditures. As shown by \cite{barbiero2018macroeconomics} and \cite{gopinath2017macroeconomic} this is indeed correct for a general analysis and prediction, but must be adjusted adjusted if one wants to have an exact model (this will be part of the discussion). I will also use the possible price constancy assumption, as derived by \cite{buiter2017exchange}. After defining their effects on the exchange rate, I will start the discussion with explaining Buiters result and extend them to the destination based cash flow tax. \\
-First of all, let us once again set the scope of this thesis. Under the assumption that border tax adjustment neutrality holds, I will define possible effects on the exchange rate.   While the common perception forecasts an appreciation to offset all distorting effects, I will show that this can also be achieved through a depreciation. So in order to make implications for the exchange rate, we firstly have to define key economic values and relations that must be unchanged. After defining them for the origin-based and destination-based tax regime, we look at the potential difference and then conclude with the neutrality condition. 
-But we also need to define prices in a way, that allows us to differ between the two constancy dimensions. Doing so, we are able to translate all 16 possible constant price configurations in the same structure that we use to describe the key economic values. This allows us to see the effects on prices, wages and exchange rates following each constant price configuration.\\
-Let us start with import and export prices in the origin-based tax regime\footnote{Origin-based tax regime always refers to the tax-introducing country, before it actually introduced the border tax adjustment. So in our case the U.S., while it still levies the origin-based cash flow tax on exports and domestic goods. Destination-based tax regime refers to the U.S. after introducing the border tax adjustment. Their imports and domestically produced goods are now subject to the destination-based cash flow tax.}:
 
-%To make implications for the nominal exchange rate, Buiter (2017) defines real after tax profits, tax revenues and key relative prices for firms and households, while requiring their constancy. So after expressing the basic equations for tax-inclusive and tax-exclusive prices for imports and exports, I will provide the definition of real after tax profits $\Pi$, tax revenues $T$ and relative prices $R$. \\
-%Firstly, we have to define the variables for the origin and the destination case. An under-bar will be used to represent the variables associated with the destination based tax regime $\underbar P$, over-bar for the origin based $\bar P$. While tax inclusive prices are denoted in dollar terms $P$, tax-exclusive prices will be be denoted in Euro and represented by $P^*$. We need this to consider changes in the exchange rate $e$, while the tax-rate $\theta$ applies. 
-%Eventually, we have to define the prices in a way that allows us to describe the two dimensions of constancy. So whether they are constant tax-exclusive or tax-inclusive and whether they are constant assuming origin-currency pricing or destination-currency pricing. We also need to track changes in the exchange rate and implement the tax-rate. Let us start with import and export prices in the origin-based tax regime.
+The motivation for this thesis comes from one specific mutuality across all of the above listed literature and recent articles on exchange rate movements following a border tax adjustment such as \cite{feldstein2017house} and \cite{auerbach2017destination}. They all assume that the border tax adjustment would be prevailed through an appreciation of the introducing countries currency. The following model will mirror \cite{buiter2017exchange}'s idea, that under certain price constancy assumptions, a depreciation also satisfies the neutrality conditions. 
+Following \cite{buiter2017exchange}, I build my model around the border tax adjustment neutrality. It is not necessary to provide a proof for the border tax adjustment neutrality, because this was already done by numerous authors like \cite{Feldstein&Krugman} and \cite{grossman1980border}. It is enough to take and analyze the central neutrality condition, that key economic variables are not effected by the introduction of a border tax adjustment. Hence, \cite{buiter2017exchange} provides expressions of real after tax profits, tax revenue and real prices and requires their constancy. Assuming that those neutrality conditions are satisfied I follow \cite{buiter2017exchange} in his alternative pricing assumptions which in return allows to make implications for the change of nominal prices, wages and the exchange rate.\footnote{Whenever the definition of exchange rate is used, nominal exchange rates are meant.}
+Even though this thesis is a replication of his model and analysis, I will exclude some aspects of his work. As my work is motivated by the introduction of a new destination based corporate profit tax in the U.S., I will tailor the model for this case and only provide the proof for its equivalence to the value added tax in the appendix.\footnote{This is necessary because there was not made a proof for the existence of border tax neutrality in the context of a destination based corporate profit tax, since it was mainly used in the context of value-added taxation. See \cite{Feldstein&Krugman}. } In addition, capital goods and capital expenditure will not be included, mainly due to the limited scope of this paper.\footnote{According to \cite{buiter2017exchange} this has no effects on results and would just lead to an unnecessary extend of the model.} 
+However, the model will conclude and open the analysis with the following two statements: 
+\begin{itemize}
+    \item[(i)] The tax-inclusive price of imports to exports will rise by the percentage of the tax-rate
+    \item[(ii)] The tax-exclusive price of imports to exports will fall by the percentage of the tax-rate
+\end{itemize}
+(i) and (ii) will be derived from the relative prices faced by the consumer and producers at the beginning of the Analysis.\\
 
-\subsubsection*{Origin-based Tax Regime}
+But first of all, the prices need to be defined in a way that allows to express the two constancy dimensions. Doing so, it becomes possible to study all 16 possible constant price configurations within the same structure that is used to describe the key economic variables and see their effects on prices, wages and the exchange rate.
+Let us start with import and export prices in the origin-based tax regime:\footnote{Origin-based tax regime always refers to the tax-introducing country, before it actually introduced the border tax adjustment. So in our case the U.S., while it still levies the origin-based cash flow tax on exports and domestic goods. Destination-based tax regime refers to the U.S. after introducing the border tax adjustment. Their imports and domestically produced goods are now subject to the destination-based cash flow tax.} \\
+
+An under-bar will be used to represent the variables associated with the destination based tax regime $\underbar P$, over-bar for the origin based $\bar P$. While tax inclusive prices are denoted in dollar terms $P$, tax-exclusive prices will be denoted in Euro and represented by $P^*$. We need this to consider changes in the exchange rate $e$, while the tax-rate $\theta$ applies. 
+
+\subsubsection*{Origin-based tax regime}
 
 \begin{equation}\label{O.Tax}
 \begin{aligned}
@@ -18,28 +24,28 @@ Let us start with import and export prices in the origin-based tax regime\footno
 \end{aligned}
 \end{equation}
 
-\noindent So in the origin-based tax regime, the tax-inclusive prices for imports equals the tax-exclusive price for imports in Euro times the nominal exchange rate. On the other hand, the tax-inclusive price of exports equals the tax exclusive price in Euro times the nominal exchange rate times the tax the origin based tax on exports. Through this notation, not only the tax-inclusive and tax-exclusive but also the exchange rate and the tax rate is handled. An over bar always defines the variables associated with the origin-based tax regime and an under bar defines those for the destination-based tax regime:
+\noindent In the origin-based tax regime, the tax-inclusive prices for imports equal the tax-exclusive price for imports in Euro times the nominal exchange rate. Second, the tax-inclusive price of exports equals the tax exclusive price in Euro times the nominal exchange rate and the tax levied by the origin based tax on exports. Through this notation, not only the tax-inclusive and tax-exclusive but also the exchange rate and the tax rate is handled. A bar above a variable always defines the variables associated with the origin-based tax regime while a bar below variables  defines those for the destination-based tax regime.
 
-\subsubsection*{Destination Tax Regime}
+\subsubsection*{Destination tax regime}
 \begin{equation}\label{D.Tax}
 \begin{aligned}
 \underline P_m &=  \left( 1+\theta \right) \underline e\underline P^*_m \\
 \underline P_x &= \underline e \underline P^*_x 
 \end{aligned}
 \end{equation}
-In the destination-based tax regime, exports are exempted from the tax, while $\theta$ is now imposed on the imports.\\
-Domestic prices $P_d$ have a special role in this model. They are subject to the same tax $\theta$ as import and export prices, but consumers and producers have to pay the same rate in the origin-based and the destination-based tax-regime. So later, when we define relative prices, we are setting the domestic prices in relation to import and export prices to have a uniform baseline. 
+In the destination-based tax regime, exports are exempted from the tax, while the tax rate $\theta$ is now imposed on the imports.\\
+Domestic prices $P_d$ play a special role in this model. They are subject to the same tax $\theta$ as import and export prices, but consumers and producers have to pay the same rate in the origin-based and the destination-based tax-regime. Thus, when we define relative prices in a later stage, we are setting the domestic prices in relation to import and export prices to have a uniform baseline. 
 
 
-Starting with the After Profit Tax , I will develop the equations always in the same structure. First for the origin-based, then for the destination based cash flow tax. Afterwards, I will show the difference between the both. For the After Profit Tax and the Tax Revenue, there will be an extra difference in real terms . That is not necessary for the relative prices. Lastly, I will derive the conditions under which the border tax adjustment for the specific variable is neutral. 
+Starting with the after profit tax , I will develop the equations always in the same structure enable comparability. First, the variables are defined both for the origin-based and for the destination based cash flow tax. Afterwards, I will show the difference between the two. For the after profit tax and the tax Revenue, there will be an extra difference in real terms, which is not necessary for the relative prices. Lastly, I will derive the conditions under which the border tax adjustment for the respective economic variable is neutral. 
 
 
-\subsection*{After Profit Tax}
-The after tax profit $\Pi$ of a representative firm takes domestic products  and exports as output, imports and labor as input. Output or producer prices are divided by the tax-rate $(1+\theta)$, because firms are only interested in their tax-exclusive price. $\Pi$ therefor sums up the profits from domestically produced goods $Q_d$ and exported goods $X$. Of course, the loss through imports $M$ and wages $w$ is subtracted and since we are consuming imports, tax-inclusive prices are relevant. Due to the fact that labor share of workers in the domestic sector $L_d$ and exporting sector $L_x$ is deductible in the corporate profit case, we take the tax-exclusive share. Further and as mentioned above, we leave out capital expenditure and capital goods for the sake of simplicity:
+\subsection*{After profit tax}
+The after tax profit $\Pi$ of a representative firm takes imports and labor as input and domestic products and exports as output. Output or producer prices are divided by the tax-rate $(1+\theta)$, because firms are only interested in their tax-exclusive price. $\Pi$ therefore sums up the profits from domestically produced goods $Q_d$ and exported goods $X$. Of course, the costs occuring to firms through imports $M$ and wages $w$ are subtracted and since firms are consuming imports, tax-inclusive prices are relevant. Due to the fact that the labor share of workers in the domestic sector $L_d$ and exporting sector $L_x$ are tax deductible in the corporate profit case, we take the tax-exclusive share. Further and as mentioned above, we leave out capital expenditure and capital goods for the sake of simplicity:
 
 
 \subsubsection*{Origin-based}
-As we know, in the origin based tax regime, imports are exempted and exports are taxed, with $\overline P_m = \overline e \overline P_m^*$ and $\overline P_x = (1+\theta) \overline e \overline P_x^* $ from \eqref{O.Tax}: 
+In the origin-based tax regime, imports are exempted and exports are taxed, with $\overline P_m = \overline e \overline P_m^*$ and $\overline P_x = (1+\theta) \overline e \overline P_x^* $ from \eqref{O.Tax} which results in :after tax profits:  
 \begin{equation}\label{P.O}
 \begin{aligned}
 \overline \Pi = \frac{\overline P_d}{1+\theta}\overline Q_d + \frac{\overline P_x}{1+\theta}\overline X - \overline P_m \overline M -  \left( 1-\theta \right) \overline w  \left( \overline L_d + \overline L_x \right)  
@@ -47,7 +53,7 @@ As we know, in the origin based tax regime, imports are exempted and exports are
 \end{equation}
 
 \subsubsection*{Destination}
-The destination-based after tax profit is identical to \eqref{P.O}, but with un-taxed exports and taxed imports, with $\underline P_x =  \underline e \underline P_x^* $. We do not need to divide $P_x X$ with $(1+\theta)$, because it is already exempted from the tax and $P_m M$ is consumed by the firm, so that the tax-inclusive price matters:
+The destination-based after tax profit is identical to \eqref{P.O}, only that now imports are taxed and exports are tax excempted, resulting  in $\underline P_x =  \underline e \underline P_x^* $. We do not need to divide $P_x X$ by $(1+\theta)$, because it is already exempted from the tax and $P_m M$ is consumed by the firm, so that the tax-inclusive price matters:
 \begin{equation}\label{P.D}
 \begin{aligned}
 \underline \Pi = \frac{\underline P_d}{1+\theta}\underline Q_d +\underline P_x\underline X - \underline P_m \underline M -  \left( 1-\theta \right) \underline w  \left( \underline L_d + \underline L_x \right) 
@@ -55,7 +61,7 @@ The destination-based after tax profit is identical to \eqref{P.O}, but with un-
 \end{equation}
 
 \subsubsection*{Difference}
-In \eqref{P.Diff} we have a look on the potential differences that arise by a border adjustment. It gives us the foundation of the much more informative difference in real terms \eqref{P.real}.
+In \eqref{P.Diff} we calculate potential differences that arise by a border adjustment. It provides the foundation of the much more informative difference in real terms \eqref{P.real}.
 \begin{equation}\label{P.Diff}
 \begin{aligned}
 \underline \Pi - \overline \Pi = & \left( \frac{\underline P_d}{1+\theta}\underline Q_d +\underline P_x\underline X -  \underline P_m \underline M -  \left( 1-\theta \right) \underline w  \left( \underline L_d + \underline L_x \right)  \right)  \\ &-  \left( \frac{\overline P_d}{1+\theta}\overline Q_d + \frac{\overline P_x}{1+\theta}\overline X - \overline P_m \overline M  -  \left( 1-\theta \right) \overline w  \left( \overline L_d + \overline L_x \right)  \right) \\ 
@@ -64,7 +70,7 @@ In \eqref{P.Diff} we have a look on the potential differences that arise by a bo
 \end{equation}
 
 \subsubsection*{Difference in real terms}
-As mentioned, we assume that domestic prices are uniformly taxed by the same percentage as the border adjustment tax and stay constant. Therefor we can take the domestic price as base price to describe relative changes. So to put differences in real terms, we set all prices in relation to $P_d$.
+As mentioned, it is assumed that domestic prices are taxed by the same percentage as the border adjustment tax and stay constant. Therefore we can take the domestic price as the base price to describe relative changes. Thus, to put differences following a BTA in real terms, we set all prices in relation to $P_d$.
 \begin{equation}\label{P.real}
 \begin{aligned}
 \frac{\underline \Pi}{\underline P_d} - \frac{\overline \Pi}{\overline P_d} = &\frac{1}{1+\theta} \left( \underline Q_d - \overline Q_d \right)  + \frac{\underline P_x}{\overline P_d}\underline X -  \left( \frac{1}{1+\theta} \right) \frac{\overline P_x}{\overline P_d}\overline X \\ &-  \left( \frac{ \underline P_m}{\underline P_d}\underline M - \frac{\overline P_m}{\overline P_d}\overline M \right)  \\ &-  \left( 1-\theta \right)  \left( \frac {\underline w}{\underline P_d} \underline L_d - \frac {\overline w}{\overline P_d} \overline L_d + \frac {\underline w}{\underline P_d} \underline L_x - \frac {\overline w}{\overline P_d} \overline L_x \right) 
@@ -72,7 +78,7 @@ As mentioned, we assume that domestic prices are uniformly taxed by the same per
 \end{equation}
 
 \subsubsection*{Conditions}
-Now we can derive the neutrality conditions through separating the after tax profits into domestic output, exports, imports and labor. There is border tax adjustment neutrality if all real economic measurements stay constant. As shown later, we can use also this function to describe the price relations of households.\\
+Now we can derive the neutrality conditions through separating the after tax profits into domestic output, exports, imports and labor. There is border tax adjustment neutrality if all real economic measurements stay constant. As shown later, we can use this function to describe the price relations of households.\\
 
 \noindent Output
 \begin{equation}\label{P.Out}
@@ -80,10 +86,10 @@ Now we can derive the neutrality conditions through separating the after tax pro
 \underline Q_d = \overline Q_d
 \end{aligned}
 \end{equation}
-So the volume of domestically produced and non-traded goods in the destination regime equals the one in the origin regime. We are not able to build relative prices, because $P_d$, the price of domestic goods, is already our baseline.\\
+The volume of domestically produced and non-traded goods in the destination regime equals the one in the origin regime. We are not able to build relative prices, because $P_d$, the price of domestic goods, is already our baseline.\\
 
 \noindent Imports \\
-For imports, the same condition as for domestically produced goods applies, but as mentioned above we can build real prices by putting prices for imports in relation to prices for domestic products $P_d$. Further we can use the definition from \eqref{O.Tax} and \eqref{D.Tax} to translate tax-inclusive prices to tax-exclusive prices: 
+For imports, the same condition as for domestically produced goods applies, but as mentioned above we can build real prices by setting prices for imports in relation to prices for domestic products $P_d$. Further we can use the definition from \eqref{O.Tax} and \eqref{D.Tax} to translate tax-inclusive prices to tax-exclusive prices: 
 \begin{equation}\label{P.M}
 \begin{aligned}
 \underline M &= \overline M \\
@@ -91,8 +97,8 @@ For imports, the same condition as for domestically produced goods applies, but 
 \frac{\underline P_m}{\underline P_d} &= \frac{\overline P_m}{\overline P_d} \quad or \quad \frac{\underline e \underline P_m^*}{\underline P_d} =  \left( \frac{1}{1+\theta} \right) \frac{\overline e \overline P^*_m}{\overline P_d}
 \end{aligned}
 \end{equation}
-So as the quantity of imports, the relative tax-inclusive price of imports to domestic goods is unchanged. On the other hand, the tax-exclusive price of imports to domestic-products falls by the tax-rate in the destination regime. $e P_m*$ represents the tax-exclusive price of imports in dollar. 
-It is important to notice that import prices are consumer prices and consumers are interested in the prices including the tax $\underline P_m = \left( 1+\theta \right) \underline e \underline P^*_m$. That is what they are  'paying'. On the other hand, export or domestic prices are producer prices and producers are interested in the prices without the tax $\frac{\underline P_x}{ \left( 1+\theta \right) }$. So as the quantity of exports remains, we can define relative export prices tax-inclusive and tax-exclusive as: \\
+Thus, as the quantity of imports remains constant, the relative tax-inclusive price of imports to domestic goods is unchanged. On the other hand, the tax-exclusive price of imports to domestic-products decreases by the tax-rate in the destination regime. $e P_m*$ represents the tax-exclusive price of imports in dollar. 
+It is important to notice that import prices are consumer prices and consumers are interested in the prices including the tax $\underline P_m = \left( 1+\theta \right) \underline e \underline P^*_m$. That is what the consumers are  'paying'. On the other hand, export or domestic prices are producer prices and producers are interested in the prices without the tax $\frac{\underline P_x}{ \left( 1+\theta \right) }$. So as the quantity of exports remains constant, relative export prices tax-inclusive and tax-exclusive can be defined as: \\
 \noindent Exports
 \begin{equation}\label{P.X}
 \begin{aligned}
@@ -100,9 +106,9 @@ It is important to notice that import prices are consumer prices and consumers a
 \end{aligned}
 \end{equation}
 
-As we can see, the tax-inclusive relative price of exports to domestic goods fall by the same percentage as the tax-rate, while the tax-exclusive price of imports to domestic goods in dollar stays unchanged. 
+The tax-inclusive relative price of exports to domestic goods falls by the same percentage as the tax-rate, while the tax-exclusive price of imports to domestic goods in dollar stays unchanged. 
 
-Lastly, the quantity of labor in the exporting and the domestic sector remain constant as does the relation between wages and domestic prices: \\
+Lastly, the quantity of labor in the exporting and the domestic sector remains constant as does the relation between wages and domestic prices: \\
 \noindent Labour
 \begin{equation}\label{P.L}
 \begin{aligned}
@@ -111,7 +117,7 @@ Lastly, the quantity of labor in the exporting and the domestic sector remain co
 \end{equation}
 
 \subsection*{Tax revenue}
-The tax revenue is composed by revenue generated from domestic output subtracted by the labor cost. \footnote{We remember that wages are deductible in the destination based cash flow tax.}Additionally, there is revenue created through exports in the origin-based regime and imports in the destination based regime.  
+The tax revenue is composed by revenue generated from domestic output subtracted by the labor cost. \footnote{We remember that wages are deductible in the destination based cash flow tax.} Additionally, there is revenue created through exports in the origin-based regime and imports in the destination based regime.  
 \subsubsection*{Origin} 
 \begin{equation}\label{t.o}
 \begin{aligned}
@@ -120,7 +126,7 @@ The tax revenue is composed by revenue generated from domestic output subtracted
 \end{equation}
 
 \subsubsection*{Destination}
-So after extracting the tax revenue generated from \eqref{P.O} in the origin regime, we can do the same for \eqref{P.D} with imports instead of exports: 
+After extracting the tax revenue generated from \eqref{P.O} in the origin regime, we can do the same for \eqref{P.D} with imports instead of exports: 
 \begin{equation}\label{t.d}
 \begin{aligned}
 \underline T =% \theta \left ( \frac{\underline P_d}{1+\theta}\underline Q_d \right ) + \theta \left ( \underline P_m\underline M \right )-  \left( \theta \underline w \underline L_d + \theta \underline w \underline L_x\right ) \\
@@ -150,7 +156,7 @@ With relative wages staying constant in \eqref{P.L}, the difference in tax reven
 \end{aligned} 
 \end{equation}
 under the assumption of border tax adjustment neutrality. 
-If we also want revenue neutrality, the condition for it would be balanced trade in the single-period. So that:
+If revenue neutrality should hold, trade in the single-period needs to be balanced. Thus:
 
 \begin{equation}
     \begin{aligned}
@@ -159,14 +165,15 @@ If we also want revenue neutrality, the condition for it would be balanced trade
 \end{equation}
 
 
-Further \eqref{t.real2} gives us information about the real tax revenue depending on the current account.\footnote{The current account defines the balance between imports and exports. } Given that the neutrality holds and therefor all variables including volumes and relative prices stay unchanged, one can see that the pure change from the origin- to the destination-based tax regime would increase the tax revenue by the factor $(1+\theta)$, if $\left(\frac{\underline P_m}{\underline P_d} \underline M\right) > \left(\frac{ \left( 1+\theta \right) \overline P_x}{\overline P_d}\overline X\right) $. So, as the US has a huge trade deficit (imports greater than exports), on the first look it will profit from a border tax adjustment. Giving it a more thorough investigation, as \cite{Feldstein&Krugman} did, US special case of foreign debt account will reverse the assumption and lead to a negative long run tax income forecast.
+Further \eqref{t.real2} reveals information about the real tax revenue depending on the current account.\footnote{The current account defines the balance between imports and exports. } Given that the BTA neutrality holds and therefore all variables including volumes and relative prices stay unchanged, one can see that a change from the origin- to the destination-based tax regime would increase the tax revenue by the factor $(1+\theta)$, if $\left(\frac{\underline P_m}{\underline P_d} \underline M\right) > \left(\frac{ \left( 1+\theta \right) \overline P_x}{\overline P_d}\overline X\right) $. This property has important consequences. If the U.S. has a huge trade deficit (imports greater than exports), on the first look it will profit from a border tax adjustment. Giving it a more thorough investigation, as done by \cite{Feldstein&Krugman}, one can see that the U.S. special case of foreign debt account will reverse the assumption and lead to a negative long run tax income forecast.
 
 
 
-\subsection*{Relative Prices}
-For the sake of clarity, I will move the differences between real prices in the destination and the origin regime in the appendix. 
+\subsection*{Relative prices}
+For the sake of clarity, the differences of real prices between the destination-based and the origin-based regime can be found in the appendix. 
+
 \subsection*{Relative price of imports and domestic products for consumers in the U.S.}
-This basic definition allows us to see how import prices changes following the border tax adjustment. So with \eqref{O.Tax} and \eqref{D.Tax}, the relative price of imports to domestic goods receieved by households is:
+This basic definition allows to study how import prices change following the border tax adjustment. Through \eqref{O.Tax} and \eqref{D.Tax}, the relative price of imports to domestic goods received by households can be written as:
 \subsubsection*{Origin}
 \begin{equation}\label{mcon.o}
 \begin{aligned}
@@ -178,13 +185,6 @@ This basic definition allows us to see how import prices changes following the b
 \begin{equation}\label{mcon.d}
 \begin{aligned}
 \underline R^h_m = \frac{\underline P_m}{\underline P_d} = \frac{ \left( 1 + \theta \right) \underline e \underline P^*_m}{\underline P_d}
-\end{aligned} 
-\end{equation}
-
-\subsubsection*{Difference}
-\begin{equation} \label{mcon.diff}
-\begin{aligned}
-\underline R^h_m - \overline R^h_m = \frac{\underline P_m}{\underline P_d} - \frac{\overline P_m}{\overline P_d}= \frac{ \left( 1 + \theta \right) \underline e \underline P^*_m}{\underline P_d} - \frac{\overline e \overline P^*_m}{\overline P_d}
 \end{aligned} 
 \end{equation}
 
@@ -213,21 +213,12 @@ US firms face an analog relative consumer price of imports to domestic products.
 \underline R^f_m = \frac{\underline P_m}{\frac{\underline P_d}{ \left( 1+\theta \right) }} = \frac{ \left( 1+\theta \right) \underline e \underline P^*_m}{\frac{\underline P_d}{ \left( 1+\theta \right) }}
 \end{aligned} 
 \end{equation}
-
-\subsubsection*{Difference}
-The difference are once again similar to \eqref{mcon.diff}:
-\begin{equation}\label{mpro.diff}
-\begin{aligned}
-\underline R^f_m - \overline R^f_m = \frac{\underline P_m}{\frac{\underline P_d}{ \left( 1+\theta \right) }} - \frac{\overline P_m}{\frac{\overline P_d}{ \left( 1+\theta \right) }} = \frac{ \left( 1+\theta \right) \underline e \underline P^*_m}{\frac{\underline P_d}{ \left( 1+\theta \right) }} - \frac{\overline e \overline P^*_m}{\frac{\overline P_d}{ \left( 1+\theta \right) }}
-\end{aligned} 
-\end{equation}
-
  
 \subsubsection*{Condition}
 Deriving the conditions, we are eventually able to shorten out $(1+\theta)$, because the reduction of domestic prices is constant: 
 \begin{equation}\label{mpro.con}
 \begin{aligned}
-    \underline R^f_m = \overline R^f_m &\Rightarrow \frac{\underline P_m}{\frac{\underline P_d}{ \left( 1+\theta \right) }} = \frac{\overline P_m}{\frac{\overline P_d}{ \left( 1+\theta \right) }} \Leftrightarrow \frac{ \left( 1+\theta \right) \underline e \underline P^*_m}{\frac{\underline P_d}{ \left( 1+\theta \right) }} - \frac{\overline e \overline P^*_m}{\frac{\overline P_d}{ \left( 1+\theta \right) }} \\ &\Rightarrow \frac{\underline P_m}{\underline P_d} = \frac{\overline P_m}{\overline P_d} \Rightarrow \frac{ \left( 1+\theta \right) \underline e \underline P^*_m}{{\underline P_d}} = \frac{\overline e \overline P^*_m}{\overline P_d}  \\ &\Rightarrow \frac{\underline e \underline P^*_m}{{\underline P_d}} = \frac{1}{ \left( 1+\theta \right) } \frac{\overline e \overline P^*_m}{\overline P_d}
+    \underline R^f_m = \overline R^f_m &\Rightarrow \frac{\underline P_m}{\frac{\underline P_d}{ \left( 1+\theta \right) }} = \frac{\overline P_m}{\frac{\overline P_d}{ \left( 1+\theta \right) }} \Leftrightarrow \frac{ \left( 1+\theta \right) \underline e \underline P^*_m}{\frac{\underline P_d}{ \left( 1+\theta \right) }} = \frac{\overline e \overline P^*_m}{\frac{\overline P_d}{ \left( 1+\theta \right) }} \\ &\Rightarrow \frac{\underline P_m}{\underline P_d} = \frac{\overline P_m}{\overline P_d} \Rightarrow \frac{ \left( 1+\theta \right) \underline e \underline P^*_m}{{\underline P_d}} = \frac{\overline e \overline P^*_m}{\overline P_d}  \\ &\Rightarrow \frac{\underline e \underline P^*_m}{{\underline P_d}} = \frac{1}{ \left( 1+\theta \right) } \frac{\overline e \overline P^*_m}{\overline P_d}
 \end{aligned} 
 \end{equation}
 
@@ -249,13 +240,6 @@ In the destination regime, exports are not taxed, so that:
 \end{aligned} 
 \end{equation}
 
-\subsubsection*{Difference}
-\begin{equation}\label{xpro.diff}
-\begin{aligned}
-\underline R^f_x - \overline R^f_x = \frac{\underline P_x}{\frac{\underline P_d}{ \left( 1+\theta \right) }} - \frac{\overline P_x}{\overline P_d} = \frac{\underline e \underline P^*_x}{\frac{\underline P_d}{ \left( 1+\theta \right) }} -  \left( 1+\theta \right) \frac{\overline e \overline P^*_x}{\overline P^*_d}
-\end{aligned} 
-\end{equation}
-
 \subsubsection*{Condition}
 Now we can conclude the neutrality condition for relative producer prices as:
 \begin{equation}\label{xpro.diff}
@@ -265,7 +249,7 @@ Now we can conclude the neutrality condition for relative producer prices as:
 \end{equation}
 
 \subsection*{Real consumption wage in the U.S.}
-To measure movements of wages, we use the real consumption wage. It puts the wage in relation to the prices of domestic goods and imports, so the two consumption prices. Because we do not know the exact distribution, we use a Cobb Douglas function with $\alpha$ as deflator.\footnote{There are actually serious discussion about the legitimacy of such a deflator and if it actually gives a better view. https://core.ac.uk/download/pdf/6340426.pdf}
+To measure movements of wages, we use the real consumption wage. It deflates the wages by a Cobb-Douglas function, or price index, with the prices of domestic goods and imports and with $\alpha$ as the constant share.\footnote{There are actually serious discussion about the legitimacy  and usefulness of such a deflator, e.g. see https://core.ac.uk/download/pdf/6340426.pdf}
 
 \subsubsection*{Origin}
 So with $\alpha$ between 0 and 1:
@@ -278,11 +262,6 @@ So with $\alpha$ between 0 and 1:
 \begin{aligned}
 \underline R^{h}_l = \frac{\underline w}{ \left( \underline P_{d} \right) ^{\alpha}  \left( \underline P_m \right) ^{1-\alpha}}\qquad \textit{with} \qquad 0 < \alpha < 1 \end{aligned}  \end{equation}
 
-\subsubsection*{Difference}
-\begin{equation}\label{conw.diff}
-\begin{aligned}
-\underline R^{h}_l - \overline R^{h}_l = \frac{\underline w}{ \left( \underline P_{d} \right) ^{\alpha}  \left( \underline P_m \right) ^{1-\alpha}} - \frac{\overline w}{ \left( \overline P_{d} \right) ^{\alpha}  \left( \overline P_m \right) ^{1-\alpha}}\end{aligned}  \end{equation}
-
 \subsubsection*{Condition}
 For the condition, we do not have to change the equations, but we can express the prices tax-exclusive:
 
@@ -293,7 +272,7 @@ For the condition, we do not have to change the equations, but we can express th
 \end{equation}
 
 \subsection*{Real product wage in the U.S. domestic sector}
-As wages are deductible for firms, we can reduce the wage by the tax rate $\theta$. Since the product wage is relevant for producers, the domestic price is also tax-exclusive.
+As wages are deductible for firms, we can discount the wage by the tax rate $\theta$. Since the product wage is relevant for producers, the domestic price is also tax-exclusive.
 \subsubsection*{Origin}
 \begin{equation}\label{prodw.o}
 \begin{aligned}
@@ -304,13 +283,8 @@ As wages are deductible for firms, we can reduce the wage by the tax rate $\thet
 \begin{aligned}
 \underline R^f_{w, d} = \frac{ \left( 1-\theta \right) \underline w}{\frac{\underline P_d}{ \left( 1+\theta \right) }}\end{aligned}  \end{equation}
 
-\subsubsection*{Difference}
-\begin{equation}\label{prodw.diff}
-\begin{aligned}
-\underline R^f_{w, d} - \overline R^f_{w, d} = \frac{ \left( 1-\theta \right) \underline w}{\frac{\underline P_d}{ \left( 1+\theta \right) }} - \frac{ \left( 1-\theta \right) \overline w}{\frac{\overline P_d}{ \left( 1+\theta \right) }} \end{aligned}  \end{equation}
-
 \subsubsection*{Condition}
-Because the tax-rate is constant, it does get irrelevant in this condition:
+Because the tax-rate is constant, the difference concerning both tax regimes becomes  irrelevant in this condition:
 \begin{equation}\label{prodw.con}
 \begin{aligned}
     \underline R^f_{w, d} &= \overline R^f_{w, d} \\ &\Rightarrow \frac{ \left( 1-\theta \right) \underline w}{\frac{\underline P_d}{ \left( 1+\theta \right) }} = \frac{ \left( 1-\theta \right) \overline w}{\frac{\overline P_d}{ \left( 1+\theta \right) }} \\ &\Leftrightarrow \frac{\underline w}{\underline P_d} = \frac{\overline w}{\overline P_d} 
@@ -331,13 +305,9 @@ As said, the destination regime does not tax the exports. So it is not necessary
 \begin{aligned}
 \underline R^f_{w, x} = \frac{ \left( 1-\theta \right) \underline w}{\underline P_x} = \frac{ \left( 1-\theta \right) \underline w}{\underline e \underline P^*_x}\end{aligned}  \end{equation}
 
-\subsubsection*{Difference}
-\begin{equation}\label{proxw.diff} 
-\begin{aligned}
-\underline R^f_{w, x} - \overline R^f_{w, x} = \frac{ \left( 1-\theta \right) \underline w}{\underline e \underline P^*_x} - \frac{ \left( 1-\theta \right) \overline w}{\frac{\overline P_x}{ \left( 1+\theta \right) }}\end{aligned}  \end{equation}
 
 \subsubsection*{Condition}
-While setting up the neutrality condition, we will also transform $\overline P_x$ to $(1+\theta)\overline e \overline P_x^*$. It will allow us to erase the tax rate $\theta$ from the equation and give us a better view on the results.
+While setting up the neutrality condition, we will also transform $\overline P_x$ to $(1+\theta)\overline e \overline P_x^*$. It allows to erase the tax rate $\theta$ from the equation and to give a better view on the results.
 \begin{equation}\label{proxw.con}
 \begin{aligned}
     \underline R^f_{w, x} &= \overline R^f_{w, x} \\ &\Rightarrow \frac{ \left( 1-\theta \right) \underline w}{\underline P_x} = \frac{ \left( 1-\theta \right) \overline w}{\frac{\overline P_x}{ \left( 1+\theta \right) }} \Leftrightarrow \frac{\underline w}{\underline P_x} = \frac{\overline w}{\frac{\overline P_x}{ \left( 1+\theta \right) }} \\ &\Rightarrow \frac{ \left( 1-\theta \right) \underline w}{\underline e \underline P^*_x} = \frac{ \left( 1-\theta \right) \overline w}{\frac{ \left( 1+\theta \right) \overline e \overline P^_x}{ \left( 1+\theta \right) }} \Leftrightarrow  \frac{\underline w}{\underline e \underline P^*_x} = \frac{\overline w}{\overline e \overline P^_x} 
@@ -345,7 +315,7 @@ While setting up the neutrality condition, we will also transform $\overline P_x
 \end{equation}
 
 \subsection*{Real consumption wage in the E.U.} 
-We can now start to examine real prices for our foreign trade partner the European Union. Their currency is the Euro and therefor all variables denoted with R* are in Euro as they were before. Their nominal consumption wage is also deflated by the Cobb-Douglas Price index.
+We can now start to examine real prices for our foreign trade partner the European Union (E.U.). Their currency is the Euro and therefore all variables denoted with R* are in Euro as they were before. Their nominal consumption wage is also deflated by the Cobb-Douglas Price index.
 \subsubsection*{Origin}
 \begin{equation}\label{conweu.o}
 \begin{aligned}
@@ -356,11 +326,6 @@ We can now start to examine real prices for our foreign trade partner the Europe
 \begin{aligned}
 \underline R^{*h}_l = \frac{\underline w^*}{ \left( \underline P^*_{d^*} \right) ^{\alpha^*}  \left( \underline P^*_m \right) ^{1-\alpha^*}}\qquad \textit{with} \qquad 0 < \alpha < 1 \end{aligned}  \end{equation}
 
-\subsubsection*{Difference}
-\begin{equation}\label{conweu.diff}
-\begin{aligned}
-\underline R^{*h}_l - \overline R^{*h}_l = \frac{\underline w^*}{ \left( \underline P^*_{d^*} \right) ^{\alpha^*}  \left( \underline P^*_m \right) ^{1-\alpha^*}} - \frac{\overline w^*}{ ( \overline P^*_{d^*}) ^{\alpha^*}  ( \overline P^*_m) ^{1-\alpha^*}}\end{aligned}  \end{equation}
-
 \subsubsection*{Condition}
 \begin{equation}\label{conweu.con}
 \begin{aligned}
@@ -369,7 +334,7 @@ We can now start to examine real prices for our foreign trade partner the Europe
 \end{equation}
 
 \subsection*{Relative price of exports to domestic goods for producers in the E.U.}
-U.S. imports are exports from the E.U. and must therefor be used if one wants to express the relative price of European exports to their domestic prices so that:
+U.S. imports are exports from the E.U. and must therefore be used if one wants to express the relative price of European exports to their domestic prices so that:
 \subsubsection*{Origin}
 \begin{equation}\label{mproeu.o}
 \begin{aligned}
@@ -381,11 +346,6 @@ As in the origin-based regime, in the destination-based regime we have analog re
 \begin{aligned}
 \underline R^{*f}_m = \frac{\underline P^*_m}{\underline P^*_{d^*}}\end{aligned}  \end{equation}
 
-\subsubsection*{Difference}
-\begin{equation}\label{mproeu.diff}
-\begin{aligned}
-\underline R^{*f}_m - \overline R^{*f}_m = \frac{\underline P^*_m}{\underline P^*_{d^*}} - \frac{\overline P^*_m}{\overline P^*_{d^*}}\end{aligned}  \end{equation}
-
 \subsubsection*{Condition}
 \begin{equation}\label{mproeu.con}
 \begin{aligned}
@@ -393,7 +353,7 @@ As in the origin-based regime, in the destination-based regime we have analog re
 \end{aligned}  \end{equation}
 
 \subsection*{Relative price of imports to domestic goods for producers in the E.U.}
-Again, U.S. exports are European imports and therefor we use them to describe changes in the relative price of imports and domestic goods:
+Again, U.S. exports are European imports and therefore are used to describe changes in the relative price of imports and domestic goods:
 \subsubsection*{Origin}
 \begin{equation}\label{xproeu.o}
 \begin{aligned}
@@ -404,13 +364,6 @@ Again, U.S. exports are European imports and therefor we use them to describe ch
 \begin{aligned}
 \underline R^{*f}_x = \frac{\underline P^*_x}{\underline P^*_{d^*}}\end{aligned}  \end{equation}
 
-\subsubsection*{Difference}
-\begin{equation}\label{xproeu.diff}
-\begin{aligned}
-\underline R^{*f}_x - \overline R^{*f}_x = \frac{\underline P^*_x}{\underline P^*_{d^*}} - \frac{ \left( 1+\theta \right) \overline P^*_x}{\overline P^*_{d^*}}
-\end{aligned}  
-\end{equation}
-
 \subsubsection*{Condition}
 \begin{equation}\label{xproeu.con} 
 \begin{aligned}
@@ -419,7 +372,7 @@ Again, U.S. exports are European imports and therefor we use them to describe ch
 \end{equation}
 
 \subsection*{Real product wage in the E.U. domestic sector}
-The difference here to \eqref{prodw.o} is that wages are no longer deductible. So far the destination based cash flow tax does not allow foreign firms get the same benefits as U.S. firms in terms of deducting wage costs. But as we saw in \eqref{prodw.con}, it is not important to our neutrality condition. So the following is identical to \eqref{prodw.o} - \eqref{prodw.con}:
+The difference here to \eqref{prodw.o} is that wages are no longer deductible. So far the destination based cash flow tax does not allow foreign firms get the same benefits as U.S. firms in terms of deducting wage costs. But as visible in \eqref{prodw.con}, it is not important to the border tax adjustment neutrality condition. Thus, the following is identical to \eqref{prodw.o} - \eqref{prodw.con}:
 
 \subsubsection*{Origin}
 \begin{equation}\label{prodweu.o}
@@ -435,13 +388,6 @@ The difference here to \eqref{prodw.o} is that wages are no longer deductible. S
 \end{aligned}  
 \end{equation}
 
-\subsubsection*{Difference}
-\begin{equation}\label{prodweu.diff} 
-\begin{aligned}
-\underline R^{*f}_{w^*, d^*} - \overline R^{*f}_{w^*, d^*} = \frac{\underline w^*}{\underline P^*_{d^*}} - \frac{\overline w^*}{\overline P^*_{d^*}}
-\end{aligned}  
-\end{equation}
-
 \subsubsection*{Condition}
 \begin{equation}\label{prodweu.con} 
 \begin{aligned}
@@ -450,7 +396,7 @@ The difference here to \eqref{prodw.o} is that wages are no longer deductible. S
 \end{equation}
 
 \subsection*{Real product wage in the E.U. export sector}
-To the export sector applies the same as to the domestic sector. Once again, European exports are U.S. imports.
+The export sector is modeled in the same way as the domestic sector. Once again, European exports are U.S. imports.
 \subsubsection*{Origin}
 \begin{equation}\label{proxweu.o} 
 \begin{aligned}
@@ -462,13 +408,6 @@ To the export sector applies the same as to the domestic sector. Once again, Eur
 \begin{equation}\label{proxweu.d}  
 \begin{aligned}
 \underline R^{*f}_{w^*, x^*} = \underline R^{*f}_{w^*, m} = \frac{\underline w^*}{\underline P^*_{m}}
-\end{aligned}  
-\end{equation}
-
-\subsubsection*{Difference}
-\begin{equation}\label{proxweu.diff}  
-\begin{aligned}
-\underline R^{*f}_{w^*, x^*} - \overline R^{*f}_{w^*, x^*} = \frac{\underline w^*}{\underline P^*_{m}} - \frac{\overline w^*}{\overline P^*_{m}}
 \end{aligned}  
 \end{equation}
 
